@@ -1,0 +1,25 @@
+GET http://localhost:9000/todo/ HTTP/1.1
+
+### 
+GET http://localhost:9000/todo/hshdghds HTTP/1.1
+
+###
+POST http://localhost:9000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Go to Work", 
+    "description": "Get to code and learn"
+}
+
+###
+PUT http://localhost:9000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Go to Work", 
+    "description": "Get to code and learn"
+}
+
+###
+DELETE UT http://localhost:9000/todo HTTP/1.1
